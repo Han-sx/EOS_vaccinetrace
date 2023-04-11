@@ -1,0 +1,834 @@
+{
+    "____comment": "This file was generated with eosio-abigen. DO NOT EDIT ",
+    "version": "eosio::abi/1.1",
+    "types": [],
+    "structs": [
+        {
+            "name": "add1",
+            "base": "",
+            "fields": [
+                {
+                    "name": "scope",
+                    "type": "name"
+                },
+                {
+                    "name": "ID",
+                    "type": "uint64"
+                },
+                {
+                    "name": "vaccine_name",
+                    "type": "string"
+                },
+                {
+                    "name": "manufacturer",
+                    "type": "string"
+                },
+                {
+                    "name": "produce_date",
+                    "type": "string"
+                },
+                {
+                    "name": "shelf_life",
+                    "type": "uint64"
+                },
+                {
+                    "name": "authorization",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "add2",
+            "base": "",
+            "fields": [
+                {
+                    "name": "scope",
+                    "type": "name"
+                },
+                {
+                    "name": "ID",
+                    "type": "uint64"
+                },
+                {
+                    "name": "transport_number",
+                    "type": "string"
+                },
+                {
+                    "name": "transport_company",
+                    "type": "string"
+                },
+                {
+                    "name": "from_location",
+                    "type": "string"
+                },
+                {
+                    "name": "to_location",
+                    "type": "string"
+                },
+                {
+                    "name": "ship_date",
+                    "type": "string"
+                },
+                {
+                    "name": "arrival_date",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "add3",
+            "base": "",
+            "fields": [
+                {
+                    "name": "scope",
+                    "type": "name"
+                },
+                {
+                    "name": "ID",
+                    "type": "uint64"
+                },
+                {
+                    "name": "inoculation_name",
+                    "type": "string"
+                },
+                {
+                    "name": "inoculation_number",
+                    "type": "string"
+                },
+                {
+                    "name": "inoculation_location",
+                    "type": "string"
+                },
+                {
+                    "name": "inoculation_date",
+                    "type": "string"
+                },
+                {
+                    "name": "authorization",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "adduser",
+            "base": "",
+            "fields": [
+                {
+                    "name": "scope",
+                    "type": "name"
+                },
+                {
+                    "name": "username",
+                    "type": "name"
+                },
+                {
+                    "name": "public_key",
+                    "type": "string"
+                },
+                {
+                    "name": "unit",
+                    "type": "string"
+                },
+                {
+                    "name": "supervisor",
+                    "type": "string"
+                },
+                {
+                    "name": "phone",
+                    "type": "string"
+                },
+                {
+                    "name": "email",
+                    "type": "string"
+                },
+                {
+                    "name": "authority",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "erase1",
+            "base": "",
+            "fields": [
+                {
+                    "name": "scope",
+                    "type": "name"
+                },
+                {
+                    "name": "ID",
+                    "type": "uint64"
+                }
+            ]
+        },
+        {
+            "name": "erase2",
+            "base": "",
+            "fields": [
+                {
+                    "name": "scope",
+                    "type": "name"
+                },
+                {
+                    "name": "ID",
+                    "type": "uint64"
+                }
+            ]
+        },
+        {
+            "name": "erase3",
+            "base": "",
+            "fields": [
+                {
+                    "name": "scope",
+                    "type": "name"
+                },
+                {
+                    "name": "ID",
+                    "type": "uint64"
+                }
+            ]
+        },
+        {
+            "name": "eraseir",
+            "base": "",
+            "fields": [
+                {
+                    "name": "number",
+                    "type": "uint64"
+                },
+                {
+                    "name": "scope",
+                    "type": "name"
+                }
+            ]
+        },
+        {
+            "name": "erasepr",
+            "base": "",
+            "fields": [
+                {
+                    "name": "number",
+                    "type": "uint64"
+                },
+                {
+                    "name": "scope",
+                    "type": "name"
+                }
+            ]
+        },
+        {
+            "name": "erasetr",
+            "base": "",
+            "fields": [
+                {
+                    "name": "number",
+                    "type": "uint64"
+                },
+                {
+                    "name": "scope",
+                    "type": "name"
+                }
+            ]
+        },
+        {
+            "name": "eraseuser",
+            "base": "",
+            "fields": [
+                {
+                    "name": "scope",
+                    "type": "name"
+                },
+                {
+                    "name": "username",
+                    "type": "name"
+                }
+            ]
+        },
+        {
+            "name": "inoculation",
+            "base": "",
+            "fields": [
+                {
+                    "name": "vaccine_ID",
+                    "type": "uint64"
+                },
+                {
+                    "name": "inoculation_name",
+                    "type": "string"
+                },
+                {
+                    "name": "inoculation_number",
+                    "type": "string"
+                },
+                {
+                    "name": "inoculation_location",
+                    "type": "string"
+                },
+                {
+                    "name": "inoculation_date",
+                    "type": "string"
+                },
+                {
+                    "name": "authorization",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "inoculationr",
+            "base": "",
+            "fields": [
+                {
+                    "name": "number",
+                    "type": "uint64"
+                },
+                {
+                    "name": "vaccine_ID",
+                    "type": "uint64"
+                },
+                {
+                    "name": "inoculation_name",
+                    "type": "string"
+                },
+                {
+                    "name": "inoculation_number",
+                    "type": "string"
+                },
+                {
+                    "name": "inoculation_location",
+                    "type": "string"
+                },
+                {
+                    "name": "inoculation_date",
+                    "type": "string"
+                },
+                {
+                    "name": "authorization",
+                    "type": "string"
+                },
+                {
+                    "name": "operating",
+                    "type": "string"
+                },
+                {
+                    "name": "time",
+                    "type": "uint32"
+                }
+            ]
+        },
+        {
+            "name": "product",
+            "base": "",
+            "fields": [
+                {
+                    "name": "vaccine_ID",
+                    "type": "uint64"
+                },
+                {
+                    "name": "vaccine_name",
+                    "type": "string"
+                },
+                {
+                    "name": "manufacturer",
+                    "type": "string"
+                },
+                {
+                    "name": "produce_date",
+                    "type": "string"
+                },
+                {
+                    "name": "shelf_life",
+                    "type": "uint64"
+                },
+                {
+                    "name": "authorization",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "productr",
+            "base": "",
+            "fields": [
+                {
+                    "name": "number",
+                    "type": "uint64"
+                },
+                {
+                    "name": "vaccine_ID",
+                    "type": "uint64"
+                },
+                {
+                    "name": "vaccine_name",
+                    "type": "string"
+                },
+                {
+                    "name": "manufacturer",
+                    "type": "string"
+                },
+                {
+                    "name": "produce_date",
+                    "type": "string"
+                },
+                {
+                    "name": "shelf_life",
+                    "type": "uint64"
+                },
+                {
+                    "name": "authorization",
+                    "type": "string"
+                },
+                {
+                    "name": "operating",
+                    "type": "string"
+                },
+                {
+                    "name": "time",
+                    "type": "uint32"
+                }
+            ]
+        },
+        {
+            "name": "registers",
+            "base": "",
+            "fields": [
+                {
+                    "name": "username",
+                    "type": "name"
+                },
+                {
+                    "name": "public_key",
+                    "type": "string"
+                },
+                {
+                    "name": "unit",
+                    "type": "string"
+                },
+                {
+                    "name": "supervisor",
+                    "type": "string"
+                },
+                {
+                    "name": "phone",
+                    "type": "string"
+                },
+                {
+                    "name": "email",
+                    "type": "string"
+                },
+                {
+                    "name": "authority",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "registersr",
+            "base": "",
+            "fields": [
+                {
+                    "name": "number",
+                    "type": "uint64"
+                },
+                {
+                    "name": "username",
+                    "type": "name"
+                },
+                {
+                    "name": "public_key",
+                    "type": "string"
+                },
+                {
+                    "name": "unit",
+                    "type": "string"
+                },
+                {
+                    "name": "supervisor",
+                    "type": "string"
+                },
+                {
+                    "name": "phone",
+                    "type": "string"
+                },
+                {
+                    "name": "email",
+                    "type": "string"
+                },
+                {
+                    "name": "authority",
+                    "type": "string"
+                },
+                {
+                    "name": "operating",
+                    "type": "string"
+                },
+                {
+                    "name": "time",
+                    "type": "uint32"
+                }
+            ]
+        },
+        {
+            "name": "transport",
+            "base": "",
+            "fields": [
+                {
+                    "name": "vaccine_ID",
+                    "type": "uint64"
+                },
+                {
+                    "name": "transport_number",
+                    "type": "string"
+                },
+                {
+                    "name": "transport_company",
+                    "type": "string"
+                },
+                {
+                    "name": "from_location",
+                    "type": "string"
+                },
+                {
+                    "name": "to_location",
+                    "type": "string"
+                },
+                {
+                    "name": "ship_date",
+                    "type": "string"
+                },
+                {
+                    "name": "arrival_date",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "transportr",
+            "base": "",
+            "fields": [
+                {
+                    "name": "number",
+                    "type": "uint64"
+                },
+                {
+                    "name": "vaccine_ID",
+                    "type": "uint64"
+                },
+                {
+                    "name": "transport_number",
+                    "type": "string"
+                },
+                {
+                    "name": "transport_company",
+                    "type": "string"
+                },
+                {
+                    "name": "from_location",
+                    "type": "string"
+                },
+                {
+                    "name": "to_location",
+                    "type": "string"
+                },
+                {
+                    "name": "ship_date",
+                    "type": "string"
+                },
+                {
+                    "name": "arrival_date",
+                    "type": "string"
+                },
+                {
+                    "name": "operating",
+                    "type": "string"
+                },
+                {
+                    "name": "time",
+                    "type": "uint32"
+                }
+            ]
+        },
+        {
+            "name": "update1",
+            "base": "",
+            "fields": [
+                {
+                    "name": "scope",
+                    "type": "name"
+                },
+                {
+                    "name": "ID",
+                    "type": "uint64"
+                },
+                {
+                    "name": "vaccine_name",
+                    "type": "string"
+                },
+                {
+                    "name": "manufacturer",
+                    "type": "string"
+                },
+                {
+                    "name": "produce_date",
+                    "type": "string"
+                },
+                {
+                    "name": "shelf_life",
+                    "type": "uint64"
+                },
+                {
+                    "name": "authorization",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "update2",
+            "base": "",
+            "fields": [
+                {
+                    "name": "scope",
+                    "type": "name"
+                },
+                {
+                    "name": "ID",
+                    "type": "uint64"
+                },
+                {
+                    "name": "transport_number",
+                    "type": "string"
+                },
+                {
+                    "name": "transport_company",
+                    "type": "string"
+                },
+                {
+                    "name": "from_location",
+                    "type": "string"
+                },
+                {
+                    "name": "to_location",
+                    "type": "string"
+                },
+                {
+                    "name": "ship_date",
+                    "type": "string"
+                },
+                {
+                    "name": "arrival_date",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "update3",
+            "base": "",
+            "fields": [
+                {
+                    "name": "scope",
+                    "type": "name"
+                },
+                {
+                    "name": "ID",
+                    "type": "uint64"
+                },
+                {
+                    "name": "inoculation_name",
+                    "type": "string"
+                },
+                {
+                    "name": "inoculation_number",
+                    "type": "string"
+                },
+                {
+                    "name": "inoculation_location",
+                    "type": "string"
+                },
+                {
+                    "name": "inoculation_date",
+                    "type": "string"
+                },
+                {
+                    "name": "authorization",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "updateuser",
+            "base": "",
+            "fields": [
+                {
+                    "name": "scope",
+                    "type": "name"
+                },
+                {
+                    "name": "username",
+                    "type": "name"
+                },
+                {
+                    "name": "public_key",
+                    "type": "string"
+                },
+                {
+                    "name": "unit",
+                    "type": "string"
+                },
+                {
+                    "name": "supervisor",
+                    "type": "string"
+                },
+                {
+                    "name": "phone",
+                    "type": "string"
+                },
+                {
+                    "name": "email",
+                    "type": "string"
+                },
+                {
+                    "name": "authority",
+                    "type": "string"
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "add1",
+            "type": "add1",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "add2",
+            "type": "add2",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "add3",
+            "type": "add3",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "adduser",
+            "type": "adduser",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "erase1",
+            "type": "erase1",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "erase2",
+            "type": "erase2",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "erase3",
+            "type": "erase3",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "eraseir",
+            "type": "eraseir",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "erasepr",
+            "type": "erasepr",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "erasetr",
+            "type": "erasetr",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "eraseuser",
+            "type": "eraseuser",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "update1",
+            "type": "update1",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "update2",
+            "type": "update2",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "update3",
+            "type": "update3",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "updateuser",
+            "type": "updateuser",
+            "ricardian_contract": ""
+        }
+    ],
+    "tables": [
+        {
+            "name": "inoculation",
+            "type": "inoculation",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        },
+        {
+            "name": "inoculationr",
+            "type": "inoculationr",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        },
+        {
+            "name": "products",
+            "type": "product",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        },
+        {
+            "name": "productsr",
+            "type": "productr",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        },
+        {
+            "name": "registers",
+            "type": "registers",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        },
+        {
+            "name": "registersr",
+            "type": "registersr",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        },
+        {
+            "name": "transport",
+            "type": "transport",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        },
+        {
+            "name": "transportr",
+            "type": "transportr",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        }
+    ],
+    "ricardian_clauses": [],
+    "variants": []
+}
