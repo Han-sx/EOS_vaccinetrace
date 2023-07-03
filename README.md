@@ -19,5 +19,3 @@ The blockchain smart contract is in the blockchain code file, and the front-end 
 * The following is the specific chain link of each information. The chain operation requires the use of personal private keys, and all operations will be recorded by the blockchain
 
 ![image](https://github.com/Han-sx/EOS_vaccinetrace/blob/master/front-end%20code/image/EOS_add_page.png)
-
-More information can be viewed in the demo video
